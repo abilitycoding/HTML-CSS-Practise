@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+}
+
+/* Navbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+}
+
+.brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 0px 10px;
+}
+
+.brand > img {
+  border-radius: 50%;
+}
+
+.brand-name {
+  color: white;
+  font-size: 20px;
+}
+
+.nav {
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+  padding: 0px 10px;
+}
+
+.nav > li > a {
+  text-decoration: none;
+  color: bisque;
+}
